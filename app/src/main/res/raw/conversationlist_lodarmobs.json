@@ -1,0 +1,22 @@
+[
+    {
+        "id":"zortakb",
+        "message":"The Zortak will defeat you!",
+        "replies":[
+            {
+                "text":"Fight!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"lbridge",
+        "message":"You will not pass me.",
+        "replies":[
+            {
+                "text":"Fight!",
+                "nextPhraseID":"F"
+            }
+        ]
+    }
+]

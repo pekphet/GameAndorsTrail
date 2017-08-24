@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="left"
+	>
+
+    <TextView
+		android:id="@+id/quickslot_assign_title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/inventory_assign"
+		android:drawableLeft="@drawable/ui_icon_equipment"
+		android:paddingTop="3sp"
+		style="@style/titleWithIcon"
+		/>
+    
+    <TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/inventory_selectitem"
+		/>
+    
+    
+	<ListView
+		android:id="@+id/quickbuttons_assignlist"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		/>
+
+</LinearLayout>
